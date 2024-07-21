@@ -1,7 +1,7 @@
 # G00dBunny-Boilerplate
 Three.js BoilerPlate
 
-![Screenshot of main page](../../Portfolio/G00dBunny-BoilerPlate/public/main-page.svg)
+![Screenshot of main page](public/main-page.svg)
 
 ## How to use
 Modify the `Room.js` file
