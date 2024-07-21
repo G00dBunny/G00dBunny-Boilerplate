@@ -1,3 +1,5 @@
 import Experience from './Experience/Experience.js'
 
-const experience = new Experience(document.querySelector('.experience-canvas'))
+const canvas = document.querySelector('.experience-canvas')
+
+const experience = new Experience(canvas)
