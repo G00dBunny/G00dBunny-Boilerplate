@@ -11,6 +11,7 @@
   "devDependencies": {
     "events": "^3.3.0",
     "three": "^0.166.1",
-    "vite": "^5.3.4"
+    "vite": "^5.3.4",
+    "vite-plugin-restart": "^0.4.1"
   }
 }

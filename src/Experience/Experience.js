@@ -4,6 +4,8 @@ import Camera from './Camera'
 import Renderer from './Renderer'
 import Time from './Utils/Time'
 import World from './World/World'
+import Ressources from './Utils/Ressources'
+import assets from './Utils/assets'
 
 export default class Experience {
   static instance
@@ -19,6 +21,7 @@ export default class Experience {
     this.time = new Time()
     this.scene = new THREE.Scene()
     this.camera = new Camera()
+    this.ressources = new Ressources(assets)
     this.world = new World()
     this.renderer = new Renderer()
 
